@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="heart.png" type="image/png" rel="icon" alt="website icon">
+<title>Enhanced content</title>
+</head>
+<body>  
+<h1>Well structured content</h1>
+<h2>lists</h2>
+<h3>Ordered lists</h3>
+<ol type="i">
+    <li>Mangoes</li>
+    <li>Bananas</li>
+    <li>Oranges</li>
+    <li>Pears</li>
+</ol>
+<h3>Unordered lists</h3>
+<ul>
+    <li>James</li>
+    <li>John</li>
+    <li>Jane</li>
+    <li>Jill</li>
+</ul>
+<h3>Definitions lists</h3>
+<dl>
+    <dt>KCSE</dt>
+    <dd>Kenya Certificate Of Secondary Education</dd>
+    <dt>KCPE</dt>
+    <dd>Kenya Certificate Of Primary Education</dd>
+    <dt>PLP</dt>
+    <dd>Power Learn Project</dd>
+</dl>
+<h3>Nested Lists</h3>
+<ul>
+    <li>Fruits</li>
+    <ul>
+        <li>Mango</li>
+        <li>Pears</li>
+        <li>Bananas</li>
+        <li>Oranges</li>
+    </ul>
+    <li>Users</li>
+    <ul>
+        <li>Elton</li>
+        <li>Victor</li>
+        <li>Kayleen</li>
+        <li>Tiffany</li>
+        <li>Maureen</li>
+    </ul>
+</ul>
+
+<h2>Tables</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elton</td>
+                <td>21</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>Kayleen</td>
+                <td>14</td>
+                <td>Kenya</td>
+            </tr>
+        </tbody>
+    </table>
+
+<h2>Media files</h2>
+<p>The media files have been copyright waived for a limited time, allowing for free use by creators.</p>
+
+<h3>Image files</h3>
+<h4>Displaying an image</h4>
+<img src="wallpaperflarewallpaper.jpg" alt="Austronaut holding a jelly fish"
+width="600" height="400">
+<h4>Using an image as a link</h4>
+<a href="https://academy.powerlearnprojectafrica.org/login">
+    <img src="PLPIMAGE.png" alt="Click on the image to visit Power Learn Project for studying"
+    width="600" height="400">
+</a>
+<h3>Audio files</h3>
+<audio controls>
+    <source src="Kendrick Lamar - Not Like Us - KendrickLamarVEVO.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<h3>Video files</h3>
+<video controls width="600" height="400">
+    <source src="Kendrick Lamar - Not Like Us.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+<h2>Use of forms</h2>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-group">
+            <label for="name" class="required">Full Name</label>
+            <input type="text" id="name" name="Username" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="required">Email Address</label>
+            <input type="email" id="email" name="Email address" placeholder="Your email@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="password" class="required">Password</label>
+            <input type="password" id="password" name="password" required minlength="8">
+        </div>
+        <div class="form-group">
+            <label for="birthdate">Birth Date</label>
+            <input type="date" id="date" name="birthdate">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Profession and learning details</legend>
+        <div class="form-group">
+            <label for="profession" class="required">Select Profession</label>
+            <select id="profession" name="profession" required>
+                <option value="web">Web Development</option>
+                <option value="Design">Graphics Design</option>
+                <option value="nurse">Nursing</option>
+                <option value="treating">Medicine</option>
+                <option value="data">Data Science</option>
+            </select>
+        </div>
+    </fieldset>    
+    <fieldset>
+        <div class="form-group">
+                <label>Learning Style (Check all that apply)</label>
+            <div>
+                <label for="virtual classes">Virtual Classes</label>
+                <input type="checkbox" id="virtual classes" name="learning" value="virtual classes">
+            </div>
+            <div>
+                <label for="reading materials">Reading Materials</label>
+                <input type="checkbox" id="reading materials" name="learning" value="reading materials">
+            </div>
+        </div>   
+    </fieldset>
+    <fieldset>
+        <div class="form-group">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms" class="inline-label">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <button type="submit">Register Now</button>
+            <button type="reset">Clear Form</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
